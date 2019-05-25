@@ -1,0 +1,14 @@
+<!--pages/header/header.wxml-->
+<template name="msgItem">
+  <view>
+    ok
+  </view>
+</template>
+
+<text>wocao</text>
+
+<template name="item1">
+  <view>
+    不可以使用template包裹吗
+  </view>
+</template>

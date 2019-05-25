@@ -2,3 +2,4 @@
 * [语法及介绍]()
   * [小程序结构的基本介绍及使用](https://github.com/yaogengzhu/wechat/issues/1)
   * [数据的绑定及数据渲染](https://github.com/yaogengzhu/wechat/issues/2)
+  * [如何在小程序中使用模版](https://github.com/yaogengzhu/wechat/issues/3)

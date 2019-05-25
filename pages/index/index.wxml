@@ -1,24 +1,31 @@
-<!--index.wxml-->
-<!-- <text> {{ msg }}</text> -->
-<view>
-  <!-- <text>{{ msg }}</text> -->
-  <!-- <view>
-    <text wx:for="{{ list }}" wx:key="{{ index }}" wx:for-item="listItem">
-    {{ index}} ==== {{ listItem }}
-  </text>
-  </view> -->
-  <!-- 条件渲染 -->
-  <!-- <view wx:if="{{ true }}">11</view>
-  <view wx:else>222</view> -->
+<!-- 模版测试 -->
+<!-- <template name="page1">
+ <view>这个是第一个模版</view>
+</template> -->
+<!-- 使用模版 -->
+<!-- 这开始解开模版 -->
+<!-- <template is="page1" />
+<template is="page1" />
+<template is="page1" /> -->
 
-  <!-- <view wx:if="{{6 > 5}}">1</view>
-  <view wx:elif="{{2 > 2}}">2</view>
-  <view wx:else>3</view> -->
-  <!-- <block wx:if="{{ false }}">
-    <view>111</view>
-    <view>2222</view>
-    <view>333</view>
-  </block>
-  <view wx:else>hlleo</view> -->
-  <view hidden="{{ flag }}">hhel</view>
+<!-- <template name="testData">
+  <view>
+    <text>{{ item.name }}</text> 
+    <text>数据传入</text>
+  </view>
+</template>
+
+<template is="testData" data="{{ item }}" />  -->
+
+
+<template name="odd">
+这个是基数
+</template>
+<template name="eve">
+这个是偶数
+</template>
+
+<view wx:for="{{ [1,2,3,4,5,6,7,8] }}" wx:key="{{ index }}">
+  <template is="{{ item%2===0?'eve':'odd' }}" />
 </view>
+
