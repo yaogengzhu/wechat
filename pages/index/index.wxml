@@ -1,1 +1,24 @@
 <!--index.wxml-->
+<!-- <text> {{ msg }}</text> -->
+<view>
+  <!-- <text>{{ msg }}</text> -->
+  <!-- <view>
+    <text wx:for="{{ list }}" wx:key="{{ index }}" wx:for-item="listItem">
+    {{ index}} ==== {{ listItem }}
+  </text>
+  </view> -->
+  <!-- 条件渲染 -->
+  <!-- <view wx:if="{{ true }}">11</view>
+  <view wx:else>222</view> -->
+
+  <!-- <view wx:if="{{6 > 5}}">1</view>
+  <view wx:elif="{{2 > 2}}">2</view>
+  <view wx:else>3</view> -->
+  <!-- <block wx:if="{{ false }}">
+    <view>111</view>
+    <view>2222</view>
+    <view>333</view>
+  </block>
+  <view wx:else>hlleo</view> -->
+  <view hidden="{{ flag }}">hhel</view>
+</view>
