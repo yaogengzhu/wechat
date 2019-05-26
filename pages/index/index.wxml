@@ -16,7 +16,7 @@
 </template>
 
 <template is="testData" data="{{ item }}" />  -->
-
+<!-- 
 
 <template name="odd">
 这个是基数
@@ -27,5 +27,11 @@
 
 <view wx:for="{{ [1,2,3,4,5,6,7,8] }}" wx:key="{{ index }}">
   <template is="{{ item%2===0?'eve':'odd' }}" />
-</view>
+</view> -->
 
+<!-- 引用 -->
+<view>ok</view>
+<include src="../header/header" />
+
+<import src="../header/header"  />
+<template is="item1" data=" {{ test:'test' }} "/>

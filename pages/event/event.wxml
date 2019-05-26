@@ -1,0 +1,8 @@
+<!-- catch  和 bind 的区别 -->
+<view class="view1" bindtap='change1' data-id='1' data-msg='view1' id='view1'>
+  1111
+  <view class='view2' bindtap='change2'>
+    22222
+    <view class='view3' bindtap='change3'>3333</view>
+  </view>
+</view>

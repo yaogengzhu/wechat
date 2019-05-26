@@ -1,11 +1,11 @@
-// pages/header/header.js
+// pages/event/event.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    test:"这个是template测试"
+
   },
 
   /**
@@ -62,5 +62,16 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+
+  // 处理事件
+  change1(e){
+    console.log(e)
+  },
+  change2(e) {
+    console.log(e)
+  },
+  change3(e) {
+    console.log(e)
   }
 })
