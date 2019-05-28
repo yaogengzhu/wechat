@@ -1,8 +1,16 @@
 <!-- catch  和 bind 的区别 -->
-<view class="view1" bindtap='change1' data-id='1' data-msg='view1' id='view1'>
-  1111
+<!-- <view class="view1" bindtap='change1' data-id='1' data-msg='view1' id='view1'> -->
+<!-- 1111
   <view class='view2' bindtap='change2'>
     22222
     <view class='view3' bindtap='change3'>3333</view>
   </view>
+</view> -->
+
+<view>
+  <input placeholder="请输入城市ID" focus="{{focus}}" bindinput='getValue' />
+  <button type="primary" size="mini" bindtap='change'> 查询 </button>
+</view>
+<view>
+  <image src='http://p0.meituan.net/1000.1000/movie/71fba05fbe4912cb70d27b87c3c856393364925.jpg'></image>
 </view>
