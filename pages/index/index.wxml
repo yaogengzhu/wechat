@@ -30,8 +30,8 @@
 </view> -->
 
 <!-- 引用 -->
-<view>ok</view>
+<!-- <view>ok</view>
 <include src="../header/header" />
 
 <import src="../header/header"  />
-<template is="item1" data=" {{ test:'test' }} "/>
+<template is="item1" data=" {{ test:'test' }} "/> -->

@@ -1,0 +1,4 @@
+<!-- pages/home/home.wxml
+<text>pages/home/home.wxml</text> -->
+<!-- canvas绘制图片 -->
+<canvas style="width: 200px; height: 200px;" canvas-id="myQrcode"></canvas>

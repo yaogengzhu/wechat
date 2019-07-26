@@ -1,8 +1,26 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/header/header",
-    "pages/event/event"
+    "pages/home/home",
+    "pages/person/person",
+    "pages/shopping/shopping"
   ],
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "/images/shouye.png",
+        "selectedIconPath": "/images/shouye1.png"
+      },
+      {
+        "pagePath": "pages/shopping/shopping",
+        "text": "购物车",
+        "iconPath": "/images/gouwuchezhengpin.png",
+        "selectedIconPath": "/images/gouwuchezhengpin1.png"
+      }
+    ],
+    "backgroundColor": "#555",
+    "selectedColor": "#fff"
+  }
 }
